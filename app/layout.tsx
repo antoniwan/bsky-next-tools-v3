@@ -1,3 +1,4 @@
+import { Provider } from "@/app/components/ui/provider";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import type { Metadata } from "next";
@@ -29,9 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

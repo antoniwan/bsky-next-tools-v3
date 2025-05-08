@@ -1,4 +1,4 @@
-import Button from "@/app/components/button";
+import { Button } from "@chakra-ui/react";
 import Link from "next/link";
 
 const Header = () => {
