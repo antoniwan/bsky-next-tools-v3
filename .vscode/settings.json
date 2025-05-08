@@ -1,0 +1,8 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#FF69B4", // Shocking pink
+    "titleBar.activeForeground": "#000000", // Black text
+    "titleBar.inactiveBackground": "#FF69B4", // Shocking pink
+    "titleBar.inactiveForeground": "#000000" // Black text
+  }
+}
