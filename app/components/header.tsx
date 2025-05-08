@@ -3,19 +3,19 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header className="bg-white shadow-md">
-            <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                <Link href="/" className="text-lg font-bold text-foreground">
+        <header>
+            <div>
+                <Link href="/">
                     bsky-next-tools-v3
                 </Link>
-                <nav className="flex space-x-6">
+                <nav>
                     <Link href="/login-signup">
-                        <Button size="sm" colorScheme="blue">Login or Signup</Button>
+                        <Button size="sm" >Login or Signup</Button>
                     </Link>
-                    <Link href="/about" className="hover:underline">
+                    <Link href="/about" >
                         Instructions
                     </Link>
-                    <Link href="/contact" className="hover:underline">
+                    <Link href="/contact">
                         @ Source Code
                     </Link>
                 </nav>
