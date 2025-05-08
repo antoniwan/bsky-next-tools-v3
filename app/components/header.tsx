@@ -9,14 +9,11 @@ const Header = () => {
                     bsky-next-tools-v3
                 </Link>
                 <nav>
-                    <Link href="/login-signup">
+                    <Link href="/login">
                         <Button size="sm" >Login or Signup</Button>
                     </Link>
-                    <Link href="/about" >
+                    <Link href="/about#instructions" >
                         Instructions
-                    </Link>
-                    <Link href="/contact">
-                        @ Source Code
                     </Link>
                 </nav>
             </div>

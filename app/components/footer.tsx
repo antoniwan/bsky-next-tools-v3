@@ -6,10 +6,10 @@ const Footer = () => {
             <div>
                 <div>
                     <p >
-                        &copy;? ✨ Open Souce ✨
+                        <Link href="https://github.com/antoniwan/bsky-next-tools-v3" target="_blank">✨ Open Source Code ✨</Link>
                     </p>
                     <div >
-                        <Link href="/about" className="hover:underline">
+                        <Link href="/about">
                             About the tool
                         </Link>
                     </div>
