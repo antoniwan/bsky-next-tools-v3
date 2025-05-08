@@ -1,3 +1,4 @@
+import Button from "@/app/components/button";
 import Link from "next/link";
 
 const Header = () => {
@@ -8,6 +9,9 @@ const Header = () => {
                     bsky-next-tools-v3
                 </Link>
                 <nav className="flex space-x-4">
+                    <Link href="/login-signup">
+                        <Button>Login or Signup</Button>
+                    </Link>
                     <Link href="/about">
                         Instructions
                     </Link>
@@ -16,7 +20,7 @@ const Header = () => {
                     </Link>
                 </nav>
             </div>
-        </header>
+        </header >
     );
 };
 
