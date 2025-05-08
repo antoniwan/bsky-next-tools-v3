@@ -4,23 +4,23 @@ import Link from "next/link";
 const Header = () => {
     return (
         <header className="bg-white shadow-md">
-            <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                <Link href="/">
+            <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+                <Link href="/" className="text-lg font-bold text-foreground">
                     bsky-next-tools-v3
                 </Link>
-                <nav className="flex space-x-4">
+                <nav className="flex space-x-6">
                     <Link href="/login-signup">
-                        <Button>Login or Signup</Button>
+                        <Button size="sm" colorScheme="blue">Login or Signup</Button>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/about" className="hover:underline">
                         Instructions
                     </Link>
-                    <Link href="/contact">
+                    <Link href="/contact" className="hover:underline">
                         @ Source Code
                     </Link>
                 </nav>
             </div>
-        </header >
+        </header>
     );
 };
 
